@@ -2,7 +2,6 @@
 import './App.css'
 import Content from './content.jsx'; 
 import Header from './header.jsx';
-import { imagesData } from './data';
 import axios from 'axios';
 import { useState,useEffect } from 'react';
 
