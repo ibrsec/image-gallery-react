@@ -1,0 +1,45 @@
+
+
+section#content{
+    padding: 1rem;
+    background-color: $content-bg;
+    min-height: 100vh;
+    .container{
+        max-width: 1200px;
+        margin: auto;
+
+        display: flex;
+        column-gap: 1rem;
+        row-gap: 2rem;
+        flex-wrap: wrap;
+        justify-content: space-around;
+
+        .img-card{
+            border-radius: 10px;
+            background-color: rgba($color: $card-bg, $alpha: .5);
+            overflow: hidden;
+            img{
+                border-radius: 10px 10px 0 0 ;
+                width: 350px;
+                height: 220px;
+                object-fit: cover;
+                filter: grayscale(.5);
+                transition: .7s all ease;
+                cursor: pointer;
+                &:hover{
+                    filter: unset;
+                    transform: scale(1.05);
+                }
+            }
+            h6{
+                padding-top: 12px;
+                padding-bottom:14px;
+                font-size: 1.1rem;
+                font-family: Arial, Helvetica, sans-serif;
+                color: $extra-bg;
+                text-align: center;
+            
+            }
+        }
+    }
+}
