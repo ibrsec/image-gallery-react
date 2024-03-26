@@ -60,6 +60,7 @@
 ---
 
 <!-- ABOUT THE PROJECT -->
+<a name="about-the-project"></a>
 ## ℹ️ About The Project
 
 [![image-gallery-react](./src/assets//project.png)](https://ibrsec.github.io/image-gallery-react/)
@@ -82,7 +83,7 @@
 
 
 --- -->
-
+<a name="overview"></a>
 ## 👀 Overview
 
 📦 Used unsplash api for random images </br>
@@ -96,6 +97,8 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+
+<a name="quick-setup"></a>
 ## 🛫 Quick Setup
 
 ```sh
@@ -126,7 +129,7 @@ npm run dev || yarn start
 
 
 
-
+<a name="directory-structure"></a>
 ## 📂 Directory structure 
 
 ```
@@ -161,6 +164,7 @@ image-gallery-react  (folder)
 
 ---
 
+<a name="built-with"></a>
 ### 🏗️ Built With
 
  
